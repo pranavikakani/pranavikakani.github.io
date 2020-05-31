@@ -42,7 +42,7 @@
     top: 40px;
   }
   #intro {
-    height: 30vh;
+    height: 30vh!important;
   }
 }
 
