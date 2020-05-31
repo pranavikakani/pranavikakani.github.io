@@ -1,3 +1,26 @@
+#blog-header {
+    z-index: 2; 
+    position: absolute; 
+    margin: 90px 30px;
+}
+aside {
+    background-image:url('../assets/img/subscribe-bg.jpg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 55vh;
+    width: 100vw;
+}
+
+.img-fluid {
+    height: 15rem;
+    width: 30rem;
+}
+
+#details {
+    font-size: small;
+}
+
 /**
 * Template Name: TheEvent - v2.1.0
 * Template URL: https://bootstrapmade.com/theevent-conference-event-bootstrap-template/
