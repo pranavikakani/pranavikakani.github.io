@@ -272,7 +272,7 @@ background: black;
   padding: 8px;
   text-decoration: none;
   display: inline-block;
-  color: #fff
+  color: #fff;
   font-family: "Raleway", sans-serif;
   font-weight: 600;
   font-size: 14px;
@@ -493,7 +493,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro:before {
-  content: "";
+  content: " ";
   position: absolute;
   bottom: 0;
   top: 0;
@@ -685,7 +685,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #about:before {
-  content: "";
+  content: " ";
   position: absolute;
   bottom: 0;
   top: 0;
