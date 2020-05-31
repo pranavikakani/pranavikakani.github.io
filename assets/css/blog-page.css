@@ -1,3 +1,8 @@
+/* OVERRIDES */
+.container {
+  margin-top: 10px;
+}
+
 /* INTRO */
 #intro {
   width: 100%;
@@ -38,15 +43,6 @@
   padding: 0 15px;
 }
 
-@media only screen and (max-width: 1080px) {
-  #intro .intro-container {
-    top: 40px;
-  }
-  #intro {
-    height: 30vh!important;
-  }
-}
-
 #intro h1 {
   color: #fff;
   font-family: "Raleway", sans-serif;
@@ -70,6 +66,12 @@
 }
 
 @media (max-width: 1080px) {
+  #intro .intro-container {
+    top: 40px;
+  }
+  #intro {
+    height: 30vh!important;
+  }
   #intro h1 {
     font-size: 30px;
   }
@@ -123,13 +125,8 @@
 }
 
 /* BLOG ARTICLES */
-.img-fluid {
-  height: 15rem;
-  width: 30rem;
-}
-
 #speakers {
-  padding: 30px 0 30px 0;
+  padding: 30px 0 30px 0;  
 }
 
 #speakers .speaker {
@@ -138,8 +135,15 @@
   margin-bottom: 30px;
 }
 
+.img-fluid {
+  height: 12rem;
+  width: 20rem;
+}
+
 #speakers .speaker .details {
+  width: 20rem;
   background: rgba(6, 12, 34, 0.76);
+  border-radius: 1.5rem 1.5rem 0 0;
   position: absolute;
   left: 0;
   bottom: -30px;
@@ -151,7 +155,7 @@
 
 #speakers .speaker .details h3 {
   color: #fff;
-  font-size: 22px;
+  font-size: 19px;
   font-weight: 600;
   margin-bottom: 5px;
 }
@@ -160,7 +164,7 @@
   color: #fff;
   font-size: 15px;
   margin-bottom: 10px;
-  font-style: italic;
+  font-variant: small-caps;
 }
 
 #speakers .speaker .details .social {
