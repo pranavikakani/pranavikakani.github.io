@@ -473,11 +473,13 @@
     color: #1ab4e8;
     font-size: 2rem;
     margin-top: 20px;
+    float: right;
   }
 
   .fa-arrow-right:hover {
     color: #00577d;
     font-size: 2rem;
+    float: right;
     transition: 0.5s;
     -webkit-animation-delay: 0.8s;
     animation-delay: 0.8s;
