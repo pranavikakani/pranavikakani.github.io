@@ -15,6 +15,13 @@
   background-color: #00577d;
 }
 
+.bg-darkblue {
+  background-color: #070d25;
+}
+.bg-lightgrey {
+  background-color: #cad4f6;
+}
+
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
@@ -151,7 +158,7 @@ background: black;
 }
 
 #header #logo h1 span {
-  color: #1ab4e8;
+  color: #00577d;
 }
 
 #header #logo h1 a, #header #logo h1 a:hover {
@@ -161,7 +168,7 @@ background: black;
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 40px;
+  max-height: 35px;
 }
 
  /*--------------------------------------------------------------
@@ -459,6 +466,17 @@ background: black;
 
 #footer .footer-top .footer-info {
   margin-bottom: 30px;
+}
+
+@media only screen and (max-width: 400px){
+  #footer .footer-top .footer-info {
+    margin-bottom: 30px;
+    text-align: justify;
+  }
+  #footer .footer-top .footer-info img {
+    height: 40px;
+    margin: 0 30% 10%!important;
+  }
 }
 
 #footer .footer-top .footer-info h3 {
