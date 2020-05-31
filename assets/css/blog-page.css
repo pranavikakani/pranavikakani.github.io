@@ -132,12 +132,12 @@
 }
 
 .img-fluid {
-  height: 12rem;
-  width: 20rem;
+  height: 13rem;
+  width: 100%;
 }
 
 #speakers .speaker .details {
-  width: 20rem;
+  width: 100%;
   background: rgba(6, 12, 34, 0.76);
   border-radius: 1.5rem 1.5rem 0 0;
   position: absolute;
