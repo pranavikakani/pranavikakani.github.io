@@ -65,6 +65,10 @@
   font-size: 15px;
 }
 
+#intro u {
+  text-decoration: underline;
+}
+
 @media (max-width: 1080px) {
   #intro h1 {
     font-size: 30px;
