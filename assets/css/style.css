@@ -102,13 +102,13 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 .back-to-top:focus {
-  background: #1ab4e8;
+  background: #00577d;
   color: #fff;
   outline: none;
 }
 
 .back-to-top:hover {
-  background: #1ab4e8;
+  background: #00577d;
   color: #fff;
 }
 
@@ -168,7 +168,7 @@ background: black;
 #header #logo img {
   padding: 0;
   margin: 0;
-  max-height: 35px;
+  max-height: 45px;
 }
 
  /*--------------------------------------------------------------
