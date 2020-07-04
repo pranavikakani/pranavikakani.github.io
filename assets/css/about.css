@@ -177,8 +177,6 @@
   # About Section
   --------------------------------------------------------------*/
   #about {
-    background: #fff;
-    background-size: cover;
     overflow: hidden;
     position: relative;
     color: #fff;
@@ -668,6 +666,7 @@
     border-top: 1px solid #e0e5fa;
     border-left: 1px solid #e0e5fa;
     margin-bottom: 30px;
+    
   }
   
   #supporters .supporter-logo {
@@ -675,6 +674,7 @@
     display: flex;
     justify-content: center;
     align-items: center;
+    vertical-align: middle;
     border-right: 1px solid #e0e5fa;
     border-bottom: 1px solid #e0e5fa;
     overflow: hidden;
@@ -682,14 +682,14 @@
     height: 160px;
   }
   
-  #supporters .supporter-logo:hover img {
-    transform: scale(1.2);
-  }
-  
-  #supporters img {
+  #supporters .supporter-logo h3:hover {
+    transform: scale(1.05);
     transition: all 0.4s ease-in-out;
   }
   
+  #supporters h3 {
+    transition: all 0.4s ease-in-out;
+  }
   /*--------------------------------------------------------------
   # F.A.Q Section
   --------------------------------------------------------------*/
