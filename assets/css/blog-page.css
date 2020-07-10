@@ -1,7 +1,7 @@
 /* INTRO */
 #intro {
   width: 100%;
-  height: 50vh;
+  height: 48vh;
   background: url(../img/blog-page-header.jpg) top center;
   background-size: cover;
   background-repeat: no-repeat;
@@ -72,50 +72,6 @@
   }
   #intro p {
     font-size: 10px;
-  }
-}
-
-#intro .about-btn {
-  font-family: "Raleway", sans-serif;
-  font-weight: 500;
-  font-size: 12px;
-  letter-spacing: 1px;
-  display: inline-block;
-  padding: 12px 32px;
-  border-radius: 50px;
-  transition: 0.5s;
-  line-height: 1;
-  margin: 1px;
-  color: #fff;
-  -webkit-animation-delay: 0.8s;
-  animation-delay: 0.8s;
-  border: 2px solid #1ab4e8;
-}
-
-#intro .about-btn:hover {
-  background: #1ab4e8;
-  color: #fff;
-}
-
-@-webkit-keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
-  }
-}
-
-@keyframes pulsate-btn {
-  0% {
-    transform: scale(0.6, 0.6);
-    opacity: 1;
-  }
-  100% {
-    transform: scale(1, 1);
-    opacity: 0;
   }
 }
 
