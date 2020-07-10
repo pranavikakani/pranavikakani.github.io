@@ -26,6 +26,31 @@
   <!-- Template Main CSS File -->
   <link href="assets/css/style.css" rel="stylesheet">
   <link href="assets/css/about.css" rel="stylesheet">
+
+  <style>
+#overlay {
+  position: absolute;
+  width: 100%;
+  height: 90%;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background-color: rgba(0,0,0,0.5);
+  z-index: 2;
+  cursor: pointer;
+}
+
+#text{
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  color: white;
+  transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+} 
+</style>
   
 </head>
 
@@ -59,6 +84,12 @@
 
   <main id="main">
 
+  <div id="overlay">
+    <div id="text"><center>
+    <strong>WE BUILD, TO INSPIRE</strong>
+    <img src="assets/img/logo.png" style="margin-top: 20px;width: 50%;"></center></div>
+  </div>
+
     <!-- ======= About Section ======= -->
     <section id="about">
         <div class="container">
@@ -68,18 +99,18 @@
                     <h2>About Us</h2>
                 </div>
                 <div class="row"> 
-                  <div class="col-6"><img src="assets/img/team4.jpg" style="width: 100%; height: 200px;">
+                  <div class="col-sm-6"><img src="assets/img/team4.jpg" style="margin-bottom: 20px;width: 100%; height: 200px;">
                   </div>
-                  <div class="col-6">
+                  <div class="col-sm-6">
                      <p style="text-align: justify;">IEEE Communication Society (IEEE ComSoc) members contribute new ideas and information to our collective knowledge, developing higher industry standards, and changing the way we all communicate, for the better. Society promotes technological innovation and fosters creation and sharing of information among the global technical community. The Society provides services to members for their technical and professional advancement and forums for technical exchanges among professionals in academia, industry, and public institutions.</p>
                   </div>
                 </div>
                 <br>
                 <div class="row">
-                  <div class="col-7">
+                  <div class="col-sm-7">
                      <p style="text-align: justify;">To bring the world together in harmony through communications and networking technology research, application, education, and incubation of new ideas. Society members can participate in the development and implementation of standards in the communications field in areas such as network management and optical communications. Supporting the leadership career path of members and continuing education for communications professionals.</p>
                   </div>
-                <div class="col-5"><img src="assets/img/team5.jpg" style="width: 100%; height: 160px;">
+                <div class="col-sm-5"><img src="assets/img/team5.jpg" style="width: 100%; height: 160px;">
                   </div>           
             </div>
         </div>
