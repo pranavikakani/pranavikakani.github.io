@@ -129,7 +129,7 @@
     }
   }
   
-  #intro .about-btn {
+.about-btn {
     font-family: "Raleway", sans-serif;
     font-weight: 500;
     font-size: 14px;
@@ -146,9 +146,9 @@
     border: 2px solid #1ab4e8;
   }
   
-  #intro .about-btn:hover {
-    background: #039dfc;
-    color: #fff;
+.about-btn:hover {
+    background: #1ab4e8;
+    color: #fff!important;
   }
   
   @-webkit-keyframes pulsate-btn {
