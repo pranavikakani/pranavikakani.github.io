@@ -50,6 +50,29 @@
     background-repeat: no-repeat;
     position: relative;
   }
+
+  #overlay {
+    position: absolute;
+    width: 100%;
+    height: 90%;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0,0,0,0.5);
+    z-index: 2;
+    cursor: pointer;
+  }
+  
+  #text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    font-size: 50px;
+    color: white;
+    transform: translate(-50%,-50%);
+    -ms-transform: translate(-50%,-50%);
+  } 
   
   @media (min-width: 1024px) {
     #intro {
@@ -62,11 +85,24 @@
     #intro {
       width: 100%;
       height: 100vh;
-      background: url(../img/intro-bg-mobile.png) top center!important;
+      background: url(../img/team.jpg) top center!important;
       background-size: cover;
       background-repeat: no-repeat;
       overflow: hidden;
       position: relative;
+    }
+
+    #overlay {
+      position: absolute;
+      width: 100%;
+      height: 100%;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background-color: rgba(0,0,0,0.5);
+      z-index: 2;
+      cursor: pointer;
     }
   }
   
