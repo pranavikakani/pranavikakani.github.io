@@ -401,6 +401,23 @@
     padding-bottom: 5px;
     display: inline-block;
   }
+
+  .speaker{
+    border-radius: 10px; 
+    box-shadow:5px 5px 10px 0px lightgrey; 
+    padding-bottom: 1px;
+    margin-bottom: 20px;
+  }
+
+  #in{
+    background-color: #0e76a8;
+    color: white; 
+    padding: 8px 9px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: 120px; 
+    left: 170px;
+  }
   
   #schedule .schedule-item .speaker {
     width: 60px;
