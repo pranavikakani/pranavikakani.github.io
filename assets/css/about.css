@@ -73,6 +73,22 @@
     transform: translate(-50%,-50%);
     -ms-transform: translate(-50%,-50%);
   } 
+
+  #in{
+    background-color: #0e76a8;
+    color: white; 
+    padding: 10px 11px; 
+    border-radius: 50%; 
+    position: absolute; 
+    top: 175px; 
+    left: 160px;
+  }
+
+  #in:hover{
+    color: #0e76a8;
+    background-color: rgb(241, 241, 241); 
+    transition: .3s;
+  }
   
   @media (min-width: 1024px) {
     #intro {
@@ -103,6 +119,13 @@
       background-color: rgba(0,0,0,0.5);
       z-index: 2;
       cursor: pointer;
+    }
+
+    #in{ 
+      padding: 15px 15px;
+      font-size: 20px;
+      left: 260px;
+      top: 290px;
     }
   }
   

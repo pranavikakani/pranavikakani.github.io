@@ -418,6 +418,12 @@
     top: 120px; 
     left: 170px;
   }
+
+  #in:hover{
+    color: #0e76a8;
+    background-color: rgb(241, 241, 241); 
+    transition: .3s;
+  }
   
   #schedule .schedule-item .speaker {
     width: 60px;
@@ -435,6 +441,9 @@
       overflow: hidden;
       border-radius: 50%;
       float: center;
+    }
+    #in{ 
+      left: 190px;
     }
   }
   
