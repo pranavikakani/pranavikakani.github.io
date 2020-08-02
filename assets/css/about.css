@@ -5,6 +5,14 @@
     position: relative;
     padding-bottom: 20px;
   }
+
+  #dom{
+    width: 75%; margin-bottom: 20px; border-radius: 10px;transition: transform .4s;
+  }
+
+  #dom:hover{
+    transform: scale(1.1);
+  }
   
   .section-header::before {
     content: '';
